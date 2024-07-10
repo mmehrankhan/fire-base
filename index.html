@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- <style>
+        body{
+        background-image: url(img.jpg);
+        background-size: cover; 
+        }
+    </style> -->
+</head>
+<body >
+
+
+
+    <!-- <div id="auth_container">
+        <div>
+            <h1>Create Account</h1>
+            <input type="email" id="signup_email" placeholder="enter your email">
+            <input type="password" id="signup_password" placeholder="genrate password">
+            <button id="signup_btn">Create Account</button>
+        </div>
+        <div>
+            <h1>Sigin your Account</h1>
+            <input type="email" id="signin_email" placeholder="enter your email">
+            <input type="password" id="signin_password" placeholder="enter password">
+            <button id="signin_btn">Sigin</button>
+        </div>
+    </div>
+
+    <div id="user_container">
+        <h1 id="user_email"></h1>
+        <h3>Wellcome to your  account.</h3>
+        <button id="logout_btn">Logout</button>
+    </div> -->
+
+
+    <section class="text-gray-600 body-font">
+    <div id="auth_container">
+        <div class="container px-5 py-5 mx-auto flex flex-wrap items-center">
+              <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Create Account</h2>
+                <div class="relative mb-4">
+                  <label for="full-name" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="signup_email" name="full-name" placeholder="email" class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Password</label>
+                  <input type="password" id="signup_password" name="email" placeholder="min 6-digits" class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <button id="signup_btn" class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Signup</button>
+              </div>
+        </div>
+
+        <div class="container px-5 py-5 mx-auto flex flex-wrap items-center">
+            <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+              <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sigin your Account</h2>
+              <div class="relative mb-4">
+                <label for="full-name" class="leading-7 text-sm text-gray-600">Email</label>
+                <input type="email" id="signin_email" name="full-name" placeholder="email" class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <div class="relative mb-4">
+                <label for="email" class="leading-7 text-sm text-gray-600">Password</label>
+                <input type="password" id="signin_password" name="email" placeholder="password" class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <button id="signin_btn" class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Signup</button>
+            </div>
+      </div>
+    </div>
+      </section>
+
+      <div id="user_container">
+        <div><h1 id="user_email"></h1>
+          <h3>Wellcome to your  account.</h3>
+        </div>
+        <div>
+          <button id="logout_btn" class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Logout</button>
+
+        </div>
+        
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
+
+
+
